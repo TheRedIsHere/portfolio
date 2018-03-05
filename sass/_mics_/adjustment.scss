@@ -1,0 +1,47 @@
+html {
+	font-size: 16px;
+	overflow-x: hidden;
+	font-family: $fonts;
+}
+
+.preloader{
+	position: fixed;
+	z-index: 10;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: #00bfa5;
+	text-align: center;
+	background: url("../img/preloader_bg.jpg") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	&__progress{
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 144px;
+		height: 144px;
+		margin: auto;
+		z-index: 10;
+	}
+	&__percentages{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: #fff;
+		font-size: 1.5em;
+		opacity: 1;
+		transition: opacity 0.7s;
+	}
+}
+
+#preloader #preloader-svg__img .bar {
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}

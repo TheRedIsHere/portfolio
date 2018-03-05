@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
+
+$fonts : 'Roboto', sans-serif;
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/icons/Flaticon.eot");
+  src: url("../fonts/icons/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/icons/Flaticon.woff") format("woff"),
+       url("../fonts/icons/Flaticon.ttf") format("truetype"),
+       url("../fonts/icons/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/icons/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+
+.fi:before{
+    display: inline-block;
+    font-family: "Flaticon";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.flaticon-checked:before { content: "\f100"; }
+.flaticon-github-character:before { content: "\f101"; }
+.flaticon-vk-social-network-logo:before { content: "\f102"; }
+.flaticon-linkedin-logo:before { content: "\f103"; }
+.flaticon-vintage-key-outline:before { content: "\f104"; }
+.flaticon-user-shape:before { content: "\f105"; }
+
+$font-Flaticon-checked: "\f100";
+$font-Flaticon-github-character: "\f101";
+$font-Flaticon-vk-social-network-logo: "\f102";
+$font-Flaticon-linkedin-logo: "\f103";
+$font-Flaticon-vintage-key-outline: "\f104";
+$font-Flaticon-user-shape: "\f105";
+
+@font-face {
+    font-family: 'bernier_distressed';
+    src: url("../fonts/bernier/bernierdistressed-regular.eot");
+    src: url("../fonts/bernier/bernierdistressed-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bernier/bernierdistressed-regular.woff2") format("woff2"), url("../fonts/bernier/bernierdistressed-regular.woff") format("woff"), url("../fonts/bernier/bernierdistressed-regular.ttf") format("truetype"), url("../fonts/bernier/bernierdistressed-regular.svg#bernier_distressedregular") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+
+@font-face {
+    font-family: 'bernier_regular';
+    src: url("../fonts/bernier/bernierregular-regular.eot");
+    src: url("../fonts/bernier/bernierregular-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bernier/bernierregular-regular.woff2") format("woff2"), url("../fonts/bernier/bernierregular-regular.woff") format("woff"), url("../fonts/bernier/bernierregular-regular.ttf") format("truetype"), url("../fonts/bernier/bernierregular-regular.svg#bernier_regularregular") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+
+@font-face {
+    font-family: 'bernier_shade';
+    src: url("../fonts/bernier/berniershade-regular.eot");
+    src: url("../fonts/bernier/berniershade-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bernier/berniershade-regular.woff2") format("woff2"), url("../fonts/bernier/berniershade-regular.woff") format("woff"), url("../fonts/bernier/berniershade-regular.ttf") format("truetype"), url("../fonts/bernier/berniershade-regular.svg#bernier_shaderegular") format("svg");
+    font-weight: normal;
+    font-style: normal; }
